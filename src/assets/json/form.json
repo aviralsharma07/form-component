@@ -1,0 +1,60 @@
+[
+  {
+    "id": "username",
+    "name": "Username",
+    "type": "text",
+    "required": true,
+    "regex": "^[a-zA-Z0-9_]+$"
+  },
+  {
+    "id": "password",
+    "name": "Password",
+    "type": "password",
+    "required": true
+  },
+  {
+    "id": "gender",
+    "name": "Gender",
+    "type": "radio",
+    "options": [
+      { "label": "Male", "value": "male" },
+      { "label": "Female", "value": "female" }
+    ],
+    "required": true
+  },
+  {
+    "id": "hobbies",
+    "name": "Hobbies",
+    "type": "checkbox",
+    "options": [
+      { "label": "Reading", "value": "reading" },
+      { "label": "Traveling", "value": "traveling" }
+    ]
+  },
+  {
+    "id": "country",
+    "name": "Country",
+    "type": "select",
+    "options": [
+      { "label": "USA", "value": "usa" },
+      { "label": "Canada", "value": "canada" },
+      { "label": "India", "value": "india" },
+      { "label": "Australia", "value": "australia" },
+      { "label": "Germany", "value": "germany" },
+      { "label": "France", "value": "france" },
+      { "label": "Italy", "value": "italy" },
+      { "label": "Japan", "value": "japan" },
+      { "label": "China", "value": "china" },
+      { "label": "Brazil", "value": "brazil" }
+    ],
+    "required": true,
+    "multiSelect": false
+  },
+  {
+    "id": "resume",
+    "name": "Resume",
+    "type": "file",
+    "fileFormatSupported": [".pdf", ".docx"],
+    "required": true
+  }
+]
